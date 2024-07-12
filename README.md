@@ -2,15 +2,10 @@
 A new-initialized project on 4D generation. 
 
 
-# Related Work
+## Related Work
 The following works collectively advance the field of 4D generation by addressing challenges like motion range limitations, temporal consistency, and integrating pre-trained models to improve realism and efficiency.
 
-- **Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation**
-  [Paper](https://arxiv.org/abs/2312.02145)|[Code](https://github.com/prs-eth/Marigold)
-  - Proposed an image diffuson model exceling in monocular depth estimation.
-  - Core principle: leveraging the rich visual knowledge contained in modern generative image models.
-  - The finetuning data is synthesized.
-  ![image](https://github.com/qiaosun22/Awesome4DGeneration/assets/136222260/f0b89787-4ff1-48cf-ae69-e13f43d86788)
+
 
 - **TC4D: Trajectory-Conditioned Text-to-4D Generation**
   [paper](https://arxiv.org/pdf/2403.17920)|[Code](https://github.com/sherwinbahmani/tc4d?tab=readme-ov-file)
@@ -59,3 +54,10 @@ The following works collectively advance the field of 4D generation by addressin
   - **Result**: Maintains coherence across different viewpoints and timeframes, optimizing dynamic NeRF representations.
   ![image](https://github.com/4diffusion/assets/4diffusion_example.png)
 
+## Other Insightful Work
+- **Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation**
+  [Paper](https://arxiv.org/abs/2312.02145)|[Code](https://github.com/prs-eth/Marigold)
+  - Proposed an image diffuson model exceling in monocular depth estimation.
+  - Core principle: leveraging the rich visual knowledge contained in modern generative image models.
+  - The finetuning data is synthesized.
+  ![image](https://github.com/qiaosun22/Awesome4DGeneration/assets/136222260/f0b89787-4ff1-48cf-ae69-e13f43d86788)
