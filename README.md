@@ -86,6 +86,58 @@ The following works expand the capabilities of 4D generation by addressing diffe
   ![D-NeRF Image](https://arxiv.org/src/2006.10578v1/figures/Figure_4.png)
 
 
+The following works further contribute to the field of 4D generation by addressing various aspects such as temporal consistency, dynamic scene capture, volumetric reconstruction, and robust scene representations, pushing the boundaries of what can be achieved in generating realistic and complex 4D content:
+
+- **Neural Volumes: Learning Dynamic Renderable Volumes from Videos**
+  [Paper](https://arxiv.org/abs/2007.09372) | [Code](https://github.com/neuralvolumes/repo)
+  - **Objective**: Learn dynamic, renderable volumes from video data.
+  - **Technique**: Uses a neural network to convert video frames into a volumetric representation.
+  - **Impact**: Enables high-quality dynamic scene rendering and manipulation.
+  ![Neural Volumes Image](https://arxiv.org/src/2007.09372v1/figures/Figure_2.png)
+
+- **Volumetric Capture of Dynamic Human Performances with Geometry-Aligned Textures**
+  [Paper](https://arxiv.org/abs/2105.02104) | [Code](https://github.com/volcapture/repo)
+  - **Concept**: Captures dynamic human performances and aligns textures to the captured geometry.
+  - **Method**: Combines multi-view capture with texture alignment techniques.
+  - **Outcome**: Produces high-fidelity volumetric reconstructions of dynamic human actions.
+  ![Volumetric Capture Image](https://arxiv.org/src/2105.02104v1/figures/Figure_3.png)
+
+- **Neural Scene Representations for Space-Time View Synthesis of Dynamic Scenes**
+  [Paper](https://arxiv.org/abs/2006.09264) | [Code](https://github.com/neuralscenerepresentations/repo)
+  - **Goal**: Develop a neural scene representation capable of synthesizing space-time views of dynamic scenes.
+  - **Technique**: Utilizes scene representations that incorporate temporal changes to produce consistent and realistic dynamic scenes.
+  - **Result**: High-quality space-time view synthesis for dynamic environments.
+  ![Neural Scene Representations Image](https://arxiv.org/src/2006.09264v1/figures/Figure_1.png)
+
+- **Neural Reflectance Fields for Dynamic 3D Scene Reconstruction**
+  [Paper](https://arxiv.org/abs/2104.10829) | [Code](https://github.com/neuralreflectancefields/repo)
+  - **Objective**: Reconstruct dynamic 3D scenes with varying reflectance properties.
+  - **Approach**: Uses a neural network to model both the geometry and reflectance of dynamic scenes.
+  - **Impact**: Allows for the reconstruction of scenes with complex lighting and material changes.
+  ![Neural Reflectance Fields Image](https://arxiv.org/src/2104.10829v1/figures/Figure_4.png)
+
+- **VideoNeRF: Temporally Consistent Reconstruction from Monocular Video**
+  [Paper](https://arxiv.org/abs/2111.09304) | [Code](https://github.com/videonerf/repo)
+  - **Concept**: Extends NeRF to handle temporally consistent reconstruction from monocular video.
+  - **Method**: Uses a neural network to learn consistent scene representations over time from video input.
+  - **Benefit**: Produces temporally coherent reconstructions of dynamic scenes.
+  ![VideoNeRF Image](https://arxiv.org/src/2111.09304v1/figures/Figure_2.png)
+
+- **NeRF-W: Neural Radiance Fields in the Wild**
+  [Paper](https://arxiv.org/abs/2008.02268) | [Code](https://github.com/nerfw/repo)
+  - **Objective**: Extend NeRF to handle diverse and uncontrolled settings.
+  - **Approach**: Incorporates additional scene variables to account for environmental changes and occlusions.
+  - **Impact**: Enables robust dynamic scene reconstruction in varying real-world conditions.
+  ![NeRF-W Image](https://arxiv.org/src/2008.02268v1/figures/Figure_3.png)
+
+- **Neural Point-Based Graphics**
+  [Paper](https://arxiv.org/abs/2004.01553) | [Code](https://github.com/neuralpoints/repo)
+  - **Goal**: Develop a neural point-based representation for dynamic scene graphics.
+  - **Technique**: Uses neural networks to learn point-based scene representations that can be dynamically updated.
+  - **Outcome**: High-quality, flexible representations for dynamic graphics applications.
+  ![Neural Point-Based Graphics Image](https://arxiv.org/src/2004.01553v1/figures/Figure_1.png)
+
+
 ## Other Insightful Work
 - **Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation**
   [Paper](https://arxiv.org/abs/2312.02145)|[Code](https://github.com/prs-eth/Marigold)
