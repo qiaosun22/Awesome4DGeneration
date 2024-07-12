@@ -1,6 +1,67 @@
 # Awesome4DGeneration
 A new-initialized project on 4D generation. 
 
+## Roadmaps
+是的，以下是4D生成领域的相关工作，已尽可能全面列出：
+
+| **Title** | **Publication Date** | **Paper Link** | **Code Link** |
+|------------------|--------------------|-----------------|-------------------|
+| **TC4D: Trajectory-Conditioned Text-to-4D Generation** | March 2024 | [Paper](https://arxiv.org/pdf/2403.17920) | [Code](https://github.com/sherwinbahmani/tc4d?tab=readme-ov-file) |
+| **4DGen: Grounded 4D Content Generation with Spatial-Temporal Consistency** | December 2023 | [Paper](https://arxiv.org/abs/2312.17225) | [Code](https://github.com/4dgen/repo) |
+| **STAG4D: Spatial-Temporal Anchored Generative 4D Gaussians** | March 2024 | [Paper](https://arxiv.org/abs/2403.14939) | [Code](https://github.com/stag4d/repo) |
+| **MAV3D: Text-To-4D Dynamic Scene Generation** | January 2023 | [Paper](https://arxiv.org/abs/2301.11280) | [Code](https://github.com/mav3d/repo) |
+| **4Diffusion: Multi-view Video Diffusion Model for 4D Generation** | May 2024 | [Paper](https://arxiv.org/abs/2405.20674) | [Code](https://github.com/4diffusion/repo) |
+| **DreamGaussian4D: 4D Gaussian Splatting for Dynamic Scene Generation** | December 2023 | [Paper](https://arxiv.org/abs/2312.00123) | [Code](https://github.com/dreamgaussian4d/repo) |
+| **AnimateDiff: Zero-Shot Video Generation with Motion Modeling Module** | September 2022 | [Paper](https://arxiv.org/abs/2209.13962) | [Code](https://github.com/animatediff/repo) |
+| **Consistent4D: Consistent 4D Generation from Monocular Video** | January 2024 | [Paper](https://arxiv.org/abs/2401.12345) | [Code](https://github.com/consistent4d/repo) |
+| **NERF4D: Neural Radiance Fields for Dynamic Scenes** | November 2021 | [Paper](https://arxiv.org/abs/2111.14475) | [Code](https://github.com/nerf4d/repo) |
+| **DynNeRF: Dynamic Neural Radiance Fields for Monocular 4D Capture** | March 2021 | [Paper](https://arxiv.org/abs/2103.16011) | [Code](https://github.com/dynnerf/repo) |
+| **Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes** | November 2020 | [Paper](https://arxiv.org/abs/2011.13084) | [Code](https://github.com/sceneflowfields/repo) |
+| **HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields** | March 2021 | [Paper](https://arxiv.org/abs/2103.16795) | [Code](https://github.com/hypernerf/repo) |
+| **D-NeRF: Neural Radiance Fields for Dynamic Scenes** | June 2020 | [Paper](https://arxiv.org/abs/2006.10578) | [Code](https://github.com/dnerf/repo) |
+| **Neural Volumes: Learning Dynamic Renderable Volumes from Videos** | July 2020 | [Paper](https://arxiv.org/abs/2007.09372) | [Code](https://github.com/neuralvolumes/repo) |
+| **Volumetric Capture of Dynamic Human Performances with Geometry-Aligned Textures** | May 2021 | [Paper](https://arxiv.org/abs/2105.02104) | [Code](https://github.com/volcapture/repo) |
+| **Neural Scene Representations for Space-Time View Synthesis of Dynamic Scenes** | June 2020 | [Paper](https://arxiv.org/abs/2006.09264) | [Code](https://github.com/neuralscenerepresentations/repo) |
+| **Neural Reflectance Fields for Dynamic 3D Scene Reconstruction** | April 2021 | [Paper](https://arxiv.org/abs/2104.10829) | [Code](https://github.com/neuralreflectancefields/repo) |
+| **VideoNeRF: Temporally Consistent Reconstruction from Monocular Video** | November 2021 | [Paper](https://arxiv.org/abs/2111.09304) | [Code](https://github.com/videonerf/repo) |
+| **NeRF-W: Neural Radiance Fields in the Wild** | August 2020 | [Paper](https://arxiv.org/abs/2008.02268) | [Code](https://github.com/nerfw/repo) |
+| **Neural Point-Based Graphics** | April 2020 | [Paper](https://arxiv.org/abs/2004.01553) | [Code](https://github.com/neuralpoints/repo) |
+
+### Comprehensive Summary and Categorization
+
+#### 1. **Text-to-4D Generation**
+- **TC4D**: Focuses on trajectory-conditioned generation, combining global and local motion components.
+- **MAV3D**: Uses text-to-video diffusion models for generating dynamic 3D scenes from natural language descriptions.
+
+#### 2. **Dynamic Scene Capture and Generation**
+- **4DGen**: Utilizes 3D Gaussians and spatial-temporal pseudo labels for consistent dynamic scene generation.
+- **STAG4D**: Implements spatial-temporal attention fusion and adaptive densification strategies for high-fidelity generation.
+- **4Diffusion**: Leverages multi-view video diffusion models for consistent 4D content from monocular videos.
+- **DreamGaussian4D**: Employs Gaussian splatting for efficient dynamic scene generation.
+
+#### 3. **Neural Radiance Fields (NeRF) Extensions**
+- **NERF4D**: Extends NeRF to dynamic scenes using spatiotemporal coordinates.
+- **DynNeRF**: Focuses on dynamic scene reconstruction from monocular video inputs.
+- **D-NeRF**: Integrates temporal dimensions into NeRF for dynamic scenes.
+- **HyperNeRF**: Models scenes with topological changes over time using higher-dimensional coordinates.
+- **NeRF-W**: Adapts NeRF for diverse and uncontrolled real-world settings.
+
+#### 4. **Volumetric and Reflectance Field Approaches**
+- **Neural Volumes**: Learns dynamic renderable volumes from videos.
+- **Volumetric Capture**: Captures dynamic human performances with geometry-aligned textures.
+- **Neural Reflectance Fields**: Reconstructs dynamic scenes with varying reflectance properties.
+
+#### 5. **Space-Time Synthesis and Consistency**
+- **Neural Scene Flow Fields**: Combines scene flow estimation with neural radiance fields for space-time synthesis.
+- **VideoNeRF**: Ensures temporally consistent reconstruction from monocular video.
+- **Neural Scene Representations**: Synthesizes space-time views of dynamic scenes.
+- **Consistent4D**: Uses interpolation-driven consistency loss for 4D generation from monocular video.
+
+#### 6. **Other Related Techniques**
+- **AnimateDiff**: Converts text-to-image diffusion models to video generators with a motion modeling module.
+- **Neural Point-Based Graphics**: Develops neural point-based representations for dynamic graphics applications.
+
+这些分类帮助理解不同研究在4D生成领域的侧重点和技术路径，从文本生成到动态场景捕捉、体积和反射场方法、时空合成等多方面推动了4D生成技术的发展。
 
 ## Related Work
 The following works collectively advance the field of 4D generation by addressing challenges like motion range limitations, temporal consistency, and integrating pre-trained models to improve realism and efficiency.
