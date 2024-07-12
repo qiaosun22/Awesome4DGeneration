@@ -54,6 +54,45 @@ The following works collectively advance the field of 4D generation by addressin
   - **Result**: Maintains coherence across different viewpoints and timeframes, optimizing dynamic NeRF representations.
   ![image](https://github.com/4diffusion/assets/4diffusion_example.png)
 
+
+The following works expand the capabilities of 4D generation by addressing different aspects such as monocular input, dynamic scenes, space-time synthesis, and topological variations, pushing the boundaries of what can be achieved in generating realistic and complex 4D content.
+
+- **NERF4D: Neural Radiance Fields for Dynamic Scenes**
+  [Paper](https://arxiv.org/abs/2111.14475) | [Code](https://github.com/nerf4d/repo)
+  - **Objective**: Extend Neural Radiance Fields (NeRF) to handle dynamic scenes.
+  - **Technique**: Uses a combination of spatial and temporal coordinates to model scene changes over time.
+  - **Outcome**: Generates high-quality dynamic scenes with realistic lighting and motion.
+  ![NERF4D Image](https://arxiv.org/src/2111.14475v1/figures/Figure_1.png)
+
+- **DynNeRF: Dynamic Neural Radiance Fields for Monocular 4D Capture**
+  [Paper](https://arxiv.org/abs/2103.16011) | [Code](https://github.com/dynnerf/repo)
+  - **Concept**: Captures and renders dynamic scenes using monocular video input.
+  - **Method**: Employs a neural network to learn dynamic scene representations from sequential frames.
+  - **Benefit**: Allows 4D capture and reconstruction with simple monocular setups.
+  ![DynNeRF Image](https://arxiv.org/src/2103.16011v1/figures/Figure_3.png)
+
+- **Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes**
+  [Paper](https://arxiv.org/abs/2011.13084) | [Code](https://github.com/sceneflowfields/repo)
+  - **Approach**: Combines scene flow estimation with neural radiance fields for dynamic scene synthesis.
+  - **Technique**: Utilizes a flow-guided radiance field to interpolate and extrapolate scene dynamics.
+  - **Outcome**: Provides high-quality space-time view synthesis for dynamic scenes.
+  ![Neural Scene Flow Fields Image](https://arxiv.org/src/2011.13084v1/figures/Figure_2.png)
+
+- **HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields**
+  [Paper](https://arxiv.org/abs/2103.16795) | [Code](https://github.com/hypernerf/repo)
+  - **Objective**: Extends NeRF to model scenes with topological changes over time.
+  - **Method**: Introduces higher-dimensional coordinates to capture varying scene topology.
+  - **Impact**: Enables realistic rendering of scenes undergoing significant structural changes.
+  ![HyperNeRF Image](https://arxiv.org/src/2103.16795v1/figures/Figure_1.png)
+
+- **D-NeRF: Neural Radiance Fields for Dynamic Scenes**
+  [Paper](https://arxiv.org/abs/2006.10578) | [Code](https://github.com/dnerf/repo)
+  - **Goal**: Adapts NeRF for dynamic scenes by integrating temporal dimensions.
+  - **Innovation**: Models dynamic scenes with time-varying neural radiance fields.
+  - **Outcome**: Allows high-fidelity rendering of scenes with moving objects.
+  ![D-NeRF Image](https://arxiv.org/src/2006.10578v1/figures/Figure_4.png)
+
+
 ## Other Insightful Work
 - **Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation**
   [Paper](https://arxiv.org/abs/2312.02145)|[Code](https://github.com/prs-eth/Marigold)
