@@ -30,7 +30,10 @@ A new-initialized project on 4D generation.
 - **Neural Scene Representations**: Synthesizes space-time views of dynamic scenes.
 - **Consistent4D**: Uses interpolation-driven consistency loss for 4D generation from monocular video.
 
-### 6. **Other Related Techniques**
+### 6. **Online 4D Generation**
+- 
+
+### 7. **Other Related Techniques**
 - **AnimateDiff**: Converts text-to-image diffusion models to video generators with a motion modeling module.
 - **Neural Point-Based Graphics**: Develops neural point-based representations for dynamic graphics applications.
 
